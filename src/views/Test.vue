@@ -5,7 +5,7 @@
       <h2>Evalúa tus síntomas</h2>
       <form @submit.prevent="getEvaluation">
         <radio-question
-          question="¿Tienes sensación de falta de aire de inicio brusco (en ausencia de cualquier otra patología que justifique este síntoma)?"
+          question="¿Paezte que tienes problemes p'alendar (escartando otres patoloxíes que xustifiquen esti síntoma)?"
           name="airShortness"
         ></radio-question>
         <radio-question
@@ -13,15 +13,15 @@
           name="fever"
         ></radio-question>
         <radio-question
-          question="¿Tienes tos seca y persistente?"
+          question="¿Tienes tus seca y continua?"
           name="dryCough"
         ></radio-question>
         <radio-question
-          question="¿Has tenido contacto estrecho con algún paciente positivo confirmado?"
+          question="¿Tuvisti con daquién que diere positivu?"
           name="closeContact"
         ></radio-question>
         <radio-question
-          question="¿Tienes mucosidad en la nariz?"
+          question="¿Tienes mormera?"
           name="mucus"
         ></radio-question>
         <radio-question
@@ -29,11 +29,11 @@
           name="muscularPain"
         ></radio-question>
         <radio-question
-          question="¿Tienes sintomatología gastrointestinal?"
+          question="¿Duelte la barriga, tienes diarrea o dalgún otru tipu de síntoma gastrointestinal?"
           name="gastrointestinal"
         ></radio-question>
         <radio-question
-          question="¿Llevas más de 20 días con estos síntomas?"
+          question="¿Lleves más de 20 díes con estos síntomes?"
           name="twentyDays"
         ></radio-question>
         <div class="right">
