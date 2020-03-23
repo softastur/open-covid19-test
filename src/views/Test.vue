@@ -2,7 +2,7 @@
   <div class="test">
     <div class="margin-container"></div>
     <div>
-      <h2>Evalúa tus síntomas</h2>
+      <h2>Evaluación de síntomes</h2>
       <form @submit.prevent="getEvaluation">
         <radio-question
           question="¿Paezte que tienes problemes p'alendar (escartando otres patoloxíes que xustifiquen esti síntoma)?"
