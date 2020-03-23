@@ -10,7 +10,7 @@ L'aplicación fai ocho entrugues al usuariu y da una puntuación a cada rempuest
 
 Les entrugues, y les sos puntuaciones por contestar «Sí», son les siguientes:
 
-- ¿Paezte que te falta l'aire d'aniciu bruscu (escartando otres patoloxíes que xustifiquen esti síntoma)? **60 puntos**
+- ¿Paezte que tienes problemes p'alendar (escartando otres patoloxíes que xustifiquen esti síntoma)? **60 puntos**
 - ¿Tienes fiebre? (+37,7ºC) **15 puntos**
 - ¿Tienes tus seca y continua? **15 puntos**
 - ¿Tuvisti con daquién que diere positivu? **29 puntos**
