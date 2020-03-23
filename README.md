@@ -19,7 +19,7 @@ Les entrugues, y les sos puntuaciones por contestar «Sí», son les siguientes:
 - ¿Duelte la barriga, tienes diarrea o dalgún otru tipu de síntoma gastrointestinal? **0 puntos**
 - ¿Lleves más de 20 díes con estos síntomes? **-15 puntos**
 
-### AVISU MUI IMPORTANTE
+### ¡AVISU MUI IMPORTANTE!
 
 Esta aplicación NUN SUSTITÚI los conseyos de NENGÚN especialista sanitariu, ACUDI al mélicu si sospeches de que tas contaxáu de COVID-19 y FAI CASU a les autoridaes sanitaries oficiales.
 
