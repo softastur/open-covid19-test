@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/open-covid19-test/'
+  publicPath: '/prueba-covid19-ast/'
 };
