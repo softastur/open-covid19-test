@@ -17,7 +17,7 @@
       :id="name + 'False'"
       required
     />
-    <label :for="name + 'False'">No</label>
+    <label :for="name + 'False'">Non</label>
   </div>
 </template>
 
