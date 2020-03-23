@@ -1,6 +1,6 @@
 {
-  "name": "open-covid19-test",
-  "version": "0.1.0",
+  "name": "prueba-covid19-ast",
+  "version": "0.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
