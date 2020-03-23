@@ -2,42 +2,30 @@
   <div class="home">
     <div class="margin-container"></div>
     <div>
-      <h1>Bienvenid@ a Open COVID-19 Test</h1>
+      <h1>Afáyate en prueba-covid19-ast</h1>
       <p class="home-p">
-        Un test de autoevaluación para el COVID-19 de código abierto que
-        devuelve los mismos resultados que
-        <a href="https://www.coronamadrid.com/">coronamadrid.com</a> pero no
-        almacena tus valiosos datos.
+        Un cuestionariu d'autoevaluación pal COVID-19 que determina si tas
+        contaxáu de Coronavirus según les opciones que marques.
       </p>
       <p class="home-p">
-        Si quieres más información puedes leer
-        <a
-          href="https://maldita.es/malditatecnologia/2020/03/20/aplicacion-madrid-coronavirus-oficial-comparte-datos-empresas/"
-          >este artículo de Maldita.es</a
-        >
-        donde explican que la aplicación de la Comunidad de Madrid da acceso a
-        tus datos a las empresas privadas que la han desarrollado sin
-        anonimizarlos.
-      </p>
-      <p class="home-p">
-        También puedes entrar a
-        <a href="https://github.com/celiavelmar/open-covid19-test"
-          >mi repositorio de GitHub
+        Sí quies saber más entra
+        <a href="https://github.com/softastur/prueba-covid19-ast"
+          >nel depósitu d'esta aplicación en GitHub
           <font-awesome-icon :icon="['fab', 'github']"></font-awesome-icon
         ></a>
-        si quieres conocer el algoritmo que usa dicha aplicación (y también
-        esta) y cómo lo he descubierto o ver el código fuente.
+        pa saber cómo funciona.
       </p>
       <info-panel
         class="home-info-panel"
-        text="La información obtenida a través del uso de esta aplicación no sustituye
-        ni pretende sustituir, en ningún caso, el consejo de un profesional
-        médico. Si crees que tienes síntomas compatibles con el COVID-19 ponte
-        en contacto con el teléfono correspondiente a tu Comunidad."
+        text="La información que se consiga pente l'usu d'esta aplicación nun sustitúi
+        nin quier sustituyir, en nengún casu, el conseyu d'un profesional
+        sanitariu. Si cuides que tienes síntomes compatibles col COVID-19, llama a
+        dalgún d'estos númberos: 984 100 400, 900 878 232 ó al 112 y depués calca la
+        tecla 1. Tamién pues tentar d'acudir al to centru de salú más cercanu."
       ></info-panel>
       <div class="center">
         <router-link to="/test">
-          <button>¡Entendido! Llévame al test</button>
+          <button>¡Entendílo! Quiero facer el cuestionariu</button>
         </router-link>
       </div>
     </div>
