@@ -2,95 +2,94 @@
   <div class="results">
     <div class="margin-container"></div>
     <div v-if="filledInTest" class="main-container">
-      <h2>Resultados</h2>
+      <h2>Resultaos</h2>
       <div v-if="hasSympthoms">
         <p>
-          Tus respuestas sugieren la posibilidad de tener sintomatología
-          compatible con COVID-19 según el algoritmo de coronamadrid.com.
+          Les rempuestes suxeren qu'igual tienes sintomatoloxía compatible
+          con COVID-19.
         </p>
         <p>
-          Algunas recomendaciones si crees que tienes COVID-19:
+          Dalgunos conseyos si cuides que tienes COVID-19:
         </p>
         <ul>
           <li>
-            Observa tu evolución y si tus síntomas empeoran, sobre todo si
-            tienes dificultad respiratoria, ponte en contacto con el teléfono
-            designado por tu Comunidad para la atención sobre el COVID-19 o con
-            tu centro de salud.
+            Mira cómo evoluciones y si los síntomes empeoren, sobre manera si
+            tienes dificultá p'alendar, llama a dalgún d'estos númberos:
+            984 100 400, 900 878 232 ó al 112 y depués calca la tecla 1.
+            Tamién pues tentar d'acudir al to centru de salú más cercanu.
           </li>
           <li>
-            Quédate en casa para evitar contagios.
+            Queda en casa por responsabilidá y pa evitar más contaxos.
           </li>
           <li>
-            Utiliza una mascarilla (continuamente y cambiándola cada 24 horas).
+            Usa una mazcarina (de siguío o cambiándola cada 24 hores).
           </li>
           <li>
-            Si vives con otras personas, permanece en una habitación separada
-            con la puerta cerrada y utiliza un cuarto de baño propio si fuese
-            posible. Ventila la habitación evitando las corrientes hacia el
-            resto de la casa. No compartas vajilla, toallas ni sábanas.
+            Si vives con otres persones, queda nuna habitación separtada
+            cola puerta zarrada y usa un bañu propiu si fore posible.
+            Ventila l'habitación evitando les rabaseres y nun compartas
+             nada (cacía, ropa, preseos, etc.) con naide.
           </li>
           <li>
-            Limpia las superficies y objetos con lejía o productos
+            Llimpia les superficies y los oxetos con llexía o productos
             desinfectantes.
           </li>
           <li>
-            Guarda la ropa sucia en una bolsa cerrada y lávala por separado a
+            Guarda la ropa sucio nuna bolsa zarrada y llávala per separtao a
             60-90º.
           </li>
           <li>
-            Elimina tus residuos por separado utilizando un cubo con tapa.
+            Desfaite de la borrafa per separtao col usu d'un cubu con tapa.
           </li>
         </ul>
         <p>
-          El COVID-19 se transmite por gotas que se expulsan al toser o
-          estornudar, por eso la higiene y evitar el contacto es vital para
-          reducir el contagio.
+          El COVID-19 tresmítese per gotes que s'espulsen al tusir o espirriar
+          , poro la hixene y evitar el contactu ye perimportante p'amenorgar
+          el contaxu.
         </p>
       </div>
       <div v-else>
         <p>
-          Tus respuestas sugieren que no tienes síntomas o no son suficientes
-          para determinar un contagio de COVID-19 según el algoritmo de
-          coronamadrid.com.
+          Les rempuestes suxeren que nun tienes síntomes o nun son abondos
+          pa determinar un contaxu de COVID-19.
         </p>
       </div>
       <info-panel
-        text="Recuerda que la información obtenida a través del uso de esta
-          aplicación no sustituye ni pretende sustituir, en ningún caso, el
-          consejo de un profesional médico. Si crees que tienes síntomas
-          compatibles con el COVID-19 ponte en contacto con el teléfono
-          correspondiente a tu Comunidad o con el de tu centro de salud."
+        text="Alcuérdate que la información que s'amuesa nesta aplicación
+          nun sustitúi nin quier sustituyir, en nengún casu, el conseyu
+          d'un profesional sanitariu. Si cuides que tienes síntomes
+          compatibles col COVID-19 llama a dalgún d'estos númberos:
+          984 100 400, 900 878 232 ó al 112 y depués calques la tecla 1.
+          Tamién pues tentar d'acudir al to centru de salú más cercanu."
       ></info-panel>
-      <h3>Algunos enlaces de interés</h3>
+      <h3>Dalgunos enllaces d'interés</h3>
+      <a
+        href="https://pbs.twimg.com/media/ETv1qnqX0AQS3Oz?format=jpg"
+        target="_blank"
+      >
+        7 formes d'evitar el contaxu col Coronavirus, d'Iniciativa pol Asturianu
+      </a>
+      <br /><br />
+      <a
+        href="https://www.astursalud.es/documents/31867/964950/Inforgraf%C3%ADa_Informacion_para_la+ciudadania.pdf/76185e82-3bbb-1d64-ff29-4819c7188463"
+        target="_blank"
+      >
+        Imaxe creada pola Conseyería de Salú del Principáu d'Asturies con información tocante al COVID-19 (en castellán)
+      </a>
+      <br /><br />
       <a
         href="https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/home.htm"
         target="_blank"
       >
-        Web del Gobierno de España con información sobre el COVID-19
+        Web del Gobiernu d'España con información tocante al COVID-19 (en castellán)
       </a>
       <br /><br />
-      <a
-        href="https://www.comunidad.madrid/servicios/salud/2019-nuevo-coronavirus"
-        target="_blank"
-      >
-        Web de la Comunidad de Madrid con información sobre el COVID-19
-      </a>
-      <br /><br />
-      <a
-        href="https://www.comunidad.madrid/servicios/salud/covid-19-prevencion-consejos-ciudadania#videos"
-        target="_blank"
-      >
-        Vídeos de la Comunidad de Madrid con consejos y recomendaciones para
-        evitar la transmisión en la convivencia con una persona con síntomas
-      </a>
-      <br /><br />
-      <a href="https://www.who.int/health-topics/coronavirus" target="_blank">
-        Web de la Organización Mundial de la Salud para el Coronavirus
+      <a href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses" target="_blank">
+        Web de la Organización Mundial de la Salú pal Coronavirus (en castellán)
       </a>
       <div>
         <router-link to="/test">
-          <button>Volver a realizar el test</button>
+          <button>Facer el cuestionariu de nueves</button>
         </router-link>
       </div>
     </div>
