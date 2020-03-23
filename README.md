@@ -1,62 +1,33 @@
-# Open COVID19 Test
+# Prueba COVID-19 Asturies
 
-Un test de autoevaluación para el COVID-19 de código abierto que devuelve los mismos resultados que [coronamadrid.com](https://www.coronamadrid.com/) pero no almacena tus valiosos datos.
+Un cuestionariu d'autoevaluación cenciellu pal virus COVID-19 qu'indica al usuariu si ta contaxáu de coronavirus según les rempuestes que marque.
 
-Puedes acceder a él a través de este enlace: https://celiavelmar.github.io/open-covid19-test/
+Pues acceder a elli pente esti enllaz: https://softastur.github.io/prueba-covid19-ast/
 
-### Aplicación de la Comunidad de Madrid
+### Funcionamientu
 
-[La aplicación de autoevaluación de la Comunidad de Madrid para COVID-19: es oficial, da acceso a tus datos a empresas privadas y no los anonimiza](https://maldita.es/malditatecnologia/2020/03/20/aplicacion-madrid-coronavirus-oficial-comparte-datos-empresas/)
+L'aplicación fai ocho entrugues al usuariu y da una puntuación a cada rempuesta positiva. Si s'algama la cifra de trenta puntos o más, l'aplicación va informar al usuariu de qu'igual ta contaxáu y de los pasos qu'ha siguir.
 
-### Ingeniería inversa
+Les entrugues, y les sos puntuaciones por contestar «Sí», son les siguientes:
 
-Haciendo un poco de ingeniería inversa me he topado con el enrevesado algoritmo para el que se ha necesitado la colaboración de, al menos, seis multinacionales (según consta en la propia web de la aplicación): Google, Telefónica, Goggo Network, Ferrovial, Carto, Forcemanager y Mendesaltren.
-
-El algoritmo es el siguiente:
-
-```javascript
-var scores = {
-  falta_aire: 60,
-  fiebre: 15,
-  tos: 15,
-  contacto_positivo: 29,
-  mucosidad: 0,
-  dolor_muscular: 0,
-  gastrointestinal: 0,
-  mas_20_dias: -15
-};
-var sc = 0;
-for (var k in answers) {
-  if (answers[k]) {
-    sc = sc + scores[k];
-  }
-}
-if (sc >= 30) {
-  return 'con-sintomas';
-} else {
-  return 'sin-sintomas';
-}
-```
-
-En la aplicación web de la Comunidad de Madrid te hacen 8 preguntas y le dan una puntuación a la respuesta positiva a cada una. Si tienes 30 puntos o más la aplicación te informará de que es posible que estés contagiado y de los pasos a seguir.
-
-Las preguntas, y sus puntuaciones por contestar con un "Sí", son las siguientes:
-
-- ¿Tienes sensación de falta de aire de inicio brusco (en ausencia de cualquier otra patología que justifique este síntoma)? **60 puntos**
-- ¿Tienes fiebre? (+37.7ºC) **15 puntos**
-- ¿Tienes tos seca y persistente? **15 puntos**
-- ¿Has tenido contacto estrecho con algún paciente positivo confirmado? **29 puntos**
-- ¿Tienes mucosidad en la nariz? **0 puntos**
+- ¿Paezte que te falta l'aire d'aniciu bruscu (escartando otres patoloxíes que xustifiquen esti síntoma)? **60 puntos**
+- ¿Tienes fiebre? (+37,7ºC) **15 puntos**
+- ¿Tienes tus seca y continua? **15 puntos**
+- ¿Tuvisti con daquién que diere positivu? **29 puntos**
+- ¿Tienes mormera? **0 puntos**
 - ¿Tienes dolor muscular?: **0 puntos**
-- ¿Tienes sintomatología gastrointestinal? **0 puntos**
-- ¿Llevas más de 20 días con estos síntomas? **-15 puntos**
+- ¿Duelte la barriga, tienes diarrea o dalgún otru tipu de síntoma gastrointestinal? **0 puntos**
+- ¿Lleves más de 20 díes con estos síntomes? **-15 puntos**
 
-¿Que cómo he podido encontrarlo? Así:
+### AVISU MUI IMPORTANTE
 
-![Imagen del complejo algoritmo que la aplicación de la Comunidad de Madrid envía en un JSON mediante una petición HTTP GET](public/ComplexAlgorithm.png)
+Esta aplicación NUN SUSTITÚI los conseyos de NENGÚN especialista sanitariu, ACUDI al mélicu si sospeches de que tas contaxáu de COVID-19 y FAI CASU a les autoridaes sanitaries oficiales.
 
-### Descargo de responsabilidad
+### Biforcación y llicenciamientu
 
-La información proporcionada a través del uso de esta aplicación web no pretende, en ningún caso, sustituir el consejo de un profesional médico. Visto lo visto, la web anteriormente mencionada tampoco debería.
+Esta aplicación web básase en [open-covid19-test](https://github.com/celiavelmar/open-covid19-test) y llicénciase so la GPLv3.
 
-Los datos que aquí se muestran sobre la aplicación de la Comunidad de Madrid han sido obtenidos el 21 de marzo de 2020.
+### Tratamientu de los datos
+
+Softastur NUN VA recoyer o atroxar nenguna información que los usuarios d'esta aplicación xeneren.
+
