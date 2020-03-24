@@ -25,7 +25,7 @@ Esta aplicación NUN SUSTITÚI los conseyos de NENGÚN especialista sanitariu, A
 
 ### Biforcación y llicenciamientu
 
-Esta aplicación web básase en [open-covid19-test](https://github.com/celiavelmar/open-covid19-test) y llicénciase so la GPLv3.
+Esta aplicación web básase en [open-covid19-test](https://github.com/celiavelmar/open-covid19-test) y llicénciase so la llicencia GPLv3.
 
 ### Tratamientu de los datos
 
